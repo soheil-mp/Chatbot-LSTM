@@ -1,26 +1,10 @@
-# NLP Project Conversational Based Agent
+# Conversational Based Agent
 
-In this project, students will build an end-to-end voice conversational agent, which can take a voice input audio line, and synthesize a response. The chatbot agent will be executed locally on a computer. 
+---
 
+This is an end-to-end conversational based agent which consists of three components: 
+1. Automatic Speech Recognition (ASR): Agent takes speech as input. There is a button which after pushing it you can begin talking with the agent.
+2. Text-to-Text Chatbot: After converting the input voice to text. The agent will find a proper response based on the given text.
+3. Text-to-Speech (TTS): Ultimately the agent will turn the answer in a speech form.
 
-## Environment setup
-
-Create conda environment with python 3.7
-
-`conda create --name chatbot python=3.7`
-
-Activate the environment
-
-`conda activate chatbot`
-
-
-Install project requirements
-
-`pip install -r requirements.txt`
-
-
-Install the conda environment for use as a Jupyter kernel
-
-`python -m ipykernel install --user --name chatbot --display-name "chatbot"`
-
-
+This project is developed so you can have an AI companion in which you can talk about anything in your life.
